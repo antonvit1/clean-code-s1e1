@@ -4,43 +4,53 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header .header-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .example-task,
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-item__input-button-wrapper {
   display: flex;
 }
+
 .to-do__incomplete-tasks,
 .completed-tasks__list {
   margin: 0;
   padding: 0px;
 }
+
 .to-do__save-mode,
 .to-do__edit-mode,
 .complete-task__mode,
@@ -49,6 +59,7 @@
 .complete-task__title {
   list-style: none;
 }
+
 .task,
 .checkbox,
 .add-item__button-add,
@@ -56,6 +67,7 @@
 .delete {
   outline: none;
 }
+
 .add-item__button-add,
 .edit,
 .delete {
@@ -67,11 +79,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .add-item__button-add,
 .edit,
 .delete:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .add-item__title,
 .to-do__title,
@@ -84,6 +98,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task {
   margin: 0;
   font-size: 18px;
@@ -96,6 +111,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task:focus {
   color: #333;
 }
@@ -105,6 +121,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__new-task {
   width: 318px;
 }
@@ -116,11 +133,11 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .to-do__save-mode > *,
 .to-do__edit-mode > *,
 .complete-task__mode > * {
@@ -132,6 +149,7 @@
 .complete-task__mode > .checkbox {
   margin: 0 10px;
 }
+
 .to-do__save-mode > .example-task,
 .to-do__edit-mode > .example-task,
 .complete-task__mode > .example-task {
@@ -140,16 +158,19 @@
   font-size: 18px;
   width: 226px;
 }
+
 .to-do__save-mode > .task,
 .to-do__edit-mode > .task,
 .complete-task__mode > .task {
   width: 226px;
 }
+
 .img-delete-task {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .img-delete-task:hover {
   transform: rotateZ(0);
 }
