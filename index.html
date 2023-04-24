@@ -23,19 +23,19 @@
       <h3 class="to-do__title">Todo</h3>
       <ul class="to-do__incomplete-tasks">
         <li class="to-do__save-mode">
-          <input class="checkbox" type="checkbox">
-          <label class="example-task" for="edit-example">Pay Bills</label>
-          <input class="task" id="edit-example">
-          <button class="edit">Edit</button>
-          <button class="delete"><img class="img-delete-task" src="./remove.svg">
+          <input class="save-mode__checkbox checkbox" type="checkbox">
+          <label class="save-mode__example-task example-task" for="edit-example">Pay Bills</label>
+          <input class="save-mode__task task" id="edit-example">
+          <button class="save-mode__edit edit">Edit</button>
+          <button class="save-mode__delete delete"><img class="save-mode__img-delete-task img-delete-task" src="./remove.svg">
           </button>
         </li>
         <li class="to-do__save-mode to-do__edit-mode">
-          <input class="checkbox" type="checkbox">
-          <label class="example-task" for="save-example">Go Shopping</label>
-          <input value="Go Shopping" class="task" id="save-example">
-          <button class="edit">Save</button>
-          <button class="delete"><img class="img-delete-task" src="./remove.svg">
+          <input class="edit-mode__checkbox checkbox" type="checkbox">
+          <label class="edit-mode__example-task example-task" for="save-example">Go Shopping</label>
+          <input value="Go Shopping" class="edit-mode__task task" id="save-example">
+          <button class="edit-mode__edit edit">Save</button>
+          <button class="edit-mode__delete delete"><img class="edit-mode__img-delete-task img-delete-task" src="./remove.svg">
           </button>
         </li>
       </ul>
@@ -44,11 +44,11 @@
       <h3 class="complete-task__title">Completed</h3>
       <ul class="completed-tasks__list">
         <li class="complete-task__mode">
-          <input class="checkbox" type="checkbox" checked>
-          <label class="example-task" for="completed-example">See the Doctor</label>
-          <input class="task" id="completed-example">
-          <button class="edit">Edit</button>
-          <button class="delete"><img class="img-delete-task" src="./remove.svg">
+          <input class="complete-task__checkbox checkbox" type="checkbox" checked>
+          <label class="complete-task__example-task example-task" for="completed-example">See the Doctor</label>
+          <input class="complete-task__task task" id="completed-example">
+          <button class="complete-task__edit edit">Edit</button>
+          <button class="complete-task__delete delete"><img class="complete-task__img-delete-task img-delete-task" src="./remove.svg">
           </button>
         </li>
       </ul>
